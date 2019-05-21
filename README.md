@@ -1,30 +1,22 @@
-*Websocket based group chat app built with socket.io, react and material-ui à la The Walking Dead flavor*
+# **WebSocket-chat**
+>It is a web socket chat built with react, Node and socket. This app can allow user to select account to chat, and the data is store in local. Css is based on material-ui.
+## **操作方式**
+1. npm install
+2. cd server
+3. npm run server
+4. cd ../client
+5. npm run client
+6. go to localhost://3001, have fun to chat
+---
+## **特色**
+> 聊天室會記錄帳戶在加入或離開聊天室的紀錄
+---
+## **使用與參考之框架/模組/原始碼**
+> https://itnext.io/building-a-node-js-websocket-chat-app-with-socket-io-and-react-473a0686d1e1
+---
+## **我的貢獻**
+>讓使用者可以自行增加帳戶去做聊天服務
+----
+## **心得**
+> 去了解一個全新的CSS真的頗難，尤其當原作者沒有說明清楚的時候。原本的框架算是非常完整，花了不少時間去閱讀才有辦法配合原作的格式去寫userdata的部分
 
-Check out the tutorial:
-<a href="https://medium.com/@muehler.v/building-a-node-js-websocket-chat-app-with-socket-io-and-react-473a0686d1e1"><b>
-Building a Node.js WebSocket Chat App with Socket.io and React </b></a>
-
-
-![demo](https://user-images.githubusercontent.com/31125521/36561436-fb278416-1813-11e8-8ff1-e15c61da88b5.gif)
-
-Install.
-
-``` bash
-npm install
-```
-
-Run the socket server.
-
-``` bash
-npm run server
-```
-
-Run dev server, clients can be requested on localhost:3001.
-
-``` bash
-npm run client
-```
-
-# Demo
-
-[![IMAGE ALT TEXT](https://user-images.githubusercontent.com/31125521/36549564-5f8a8c76-17f3-11e8-97fd-a7424f4905be.jpg)](https://www.youtube.com/watch?v=EHL_2JEAsbQ "Nodejs WebSocket Chat App with socket.io, Reactjs and material-ui")
